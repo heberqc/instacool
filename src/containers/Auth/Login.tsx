@@ -10,7 +10,7 @@ import Center from '../../components/Center'
 export default class Login extends React.Component {
 	public render() {
 		return (
-			<Container>
+			<Container center>
 				<Card>
 					<Title>Iniciar Sesión</Title>
 					<Input placeholder="Correo" label='Correo' />
