@@ -18,7 +18,7 @@ export default class Navbar extends React.Component {
 	public render() {
 		return (
 			<div style={style.navbar as React.CSSProperties}>
-				<Link style={style.link} to='app/newsfeed'> <FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon>Instacool</Link>
+				<Link style={style.link} to='app/newsfeed'><FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Instacool</Link>
 				<div style={{ float: 'right' }}><Link style={style.link} to='app/profile'><FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Perfil</Link></div>
 			</div>
 		)
