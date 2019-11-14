@@ -12,7 +12,7 @@ const style = (center: boolean): React.CSSProperties => ({
 })
 
 interface IContainerProps {
-	center?: boolean,
+	center?: boolean
 }
 
 export default class Container extends React.Component<IContainerProps> {

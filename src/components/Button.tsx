@@ -11,7 +11,7 @@ const style = (block: boolean) => ({
 })
 
 interface IButtonProps {
-	block?: boolean,
+	block?: boolean
 }
 
 export default class Button extends React.Component<IButtonProps> {

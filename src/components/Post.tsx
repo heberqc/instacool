@@ -9,7 +9,7 @@ const style = {
 } as React.CSSProperties
 
 interface IPostProps {
-	image: string,
+	image: string
 }
 
 export default class Post extends React.Component<IPostProps> {
